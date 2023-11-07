@@ -9,6 +9,6 @@ archivo = open(nombre_archivo,"r")
 lector = csv.reader(archivo)
 
 for fila in lector:
-    contenido = "  ".join(fila)
+    contenido = " ".join(fila)
     print(contenido)
 
